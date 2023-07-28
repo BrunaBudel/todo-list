@@ -1,6 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTrashCan } from '@fortawesome/free-solid-svg-icons'
-import { useState } from 'react';
 import { ITask } from './List';
 
 export interface TaskProps extends ITask {

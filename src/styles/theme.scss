@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.taskCheckbox{
+  @apply appearance-none h-[17.65px] w-[17.65px] rounded-full bg-transparent border-2 border-blue hover:bg-blue-dark/50 hover:border-blue-dark checked:bg-purple-dark checked:relative checked:border-purple-dark checked:hover:bg-purple checked:hover:border-purple 
+}

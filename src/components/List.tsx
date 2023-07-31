@@ -57,7 +57,7 @@ export function List() {
   return (
     <div className=" space-y-20">
       <form
-        className="-mt-[50px] flex flex-row max-lg:flex-col gap-2"
+        className="-mt-[3.125rem] flex flex-row max-lg:flex-col gap-2"
         onSubmit={handleCreateNewTask}
       >
         <textarea
@@ -79,13 +79,13 @@ export function List() {
         <div className="flex max-md:flex-col justify-between gap-4">
           <p className="text-blue font-bold text-sm">
             Tarefas criadas{' '}
-            <span className="text-gray-200 bg-gray-400 px-2 py-[2px] rounded-full">
+            <span className="text-gray-200 bg-gray-400 px-2 py-[0.125rem] rounded-full">
               {createdTasks}
             </span>
           </p>
           <p className="text-purple font-bold text-sm">
             Concluídas{' '}
-            <span className="text-gray-200 bg-gray-400 px-2 py-[2px] rounded-full">
+            <span className="text-gray-200 bg-gray-400 px-2 py-[0.125rem] rounded-full">
               {completedTasks} de {createdTasks}
             </span>
           </p>

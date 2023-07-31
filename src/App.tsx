@@ -1,18 +1,13 @@
-
-import { Header } from "./components/Header"
-import { List } from "./components/List"
-import { Task } from "./components/Task"
-
+import { Header } from './components/Header'
+import { List } from './components/List'
 
 function App() {
-
   return (
     <div className="min-h-screen bg-gray-600">
-      <Header/>
+      <Header />
       <div className="p-8 md:px-[200px] lg:px-[352px]">
-          <List/>
+        <List />
       </div>
-      
     </div>
   )
 }
